@@ -22,6 +22,12 @@ body>div {
 #navbar {
   padding: 2em;
   justify-content: space-evenly;
+  border-bottom: 1px solid black;
+}
+
+
+#navbar:hover {
+  color: red;
 }
 
 #main-section {
@@ -34,6 +40,7 @@ body>div {
   align-items: center;
   justify-content: center;
 }
+
 
 .red {
   background-color: #b05f6d;
@@ -49,4 +56,10 @@ body>div {
 .home {
   background-color: lightcoral;
   color: white;
+}
+
+/* When first visit the page */
+.starter {
+  background-color: aqua;
+  color: black;
 }
